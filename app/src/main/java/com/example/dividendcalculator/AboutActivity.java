@@ -15,7 +15,7 @@ public class AboutActivity extends AppCompatActivity {
 
         LinearLayout githubButton = findViewById(R.id.githubButton);
         githubButton.setOnClickListener(v -> {
-            String url = "https://github.com/YOUR_USERNAME/YOUR_REPO";
+            String url = "https://github.com/balqisstudy/Unit-Trust-Dividend-Calculator-App";
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
         });
